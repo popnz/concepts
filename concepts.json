@@ -21,7 +21,7 @@
     "images": ["images/cosmetics/kingdomcum.jpg"],
     "type": "cosmetic",
     "event": ["halloween"],
-    "claimed": false,
+    "claimed": true,
     "claimedBy": "Audrey, maybe?",
     "isReleased": false
   },
@@ -30,7 +30,7 @@
     "images": ["images/cosmetics/wirecutter.jpg"],
     "type": "cosmetic",
     "event": ["summer", "smissmas"],
-    "claimed": false,
+    "claimed": true,
     "claimedBy": "Audrey, maybe?",
     "isReleased": false
   },
