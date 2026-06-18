@@ -41,7 +41,14 @@
     letter-spacing: 1px;
     text-shadow: 2px 2px 0px rgba(0,0,0,0.5);
   }
-  
+
+  .catchphrase {
+    margin: -10px 0 1.5rem 0; /* Tucks it neatly right under the main title */
+    font-size: 1rem;
+    color: #888; /* Muted gray so it doesn't distract from the main heading */
+    font-style: italic;
+    font-family: 'TF2 Secondary', Arial, sans-serif;
+  }
   /* Space-Saving Multi-Column Filters Container */
   .filters-container {
     display: grid;
@@ -340,7 +347,11 @@
 
   <header>
     <h1>Pop's TF2 Concepts</h1>
+    <p id="tf2-catchphrase" class="catchphrase" style="cursor: pointer; user-select: none;">
+    "Powered by our Slop Overlords"
+    </p>
     
+    <div class="filters-container">
     <div class="filters-container">
       <div class="filter-group">
         <div class="filter-title">Item Types</div>
@@ -404,6 +415,36 @@
   </div>
 
 <script>
+const soundCues = [
+  'audio/1.mp3',
+  'audio/2.mp3',
+  'audio/3.mp3',
+  'audio/4.mp3'
+];
+
+// Keep track of the last played index so it doesn't accidentally play the exact same sound twice in a row
+let lastSoundIndex = -1;
+
+// 2. Set up the click handler once the page loads
+document.getElementById('tf2-catchphrase').addEventListener('click', () => {
+  if (soundCues.length === 0) return;
+
+  let randomIndex;
+  
+  if (soundCues.length > 1) {
+    do {
+      randomIndex = Math.floor(Math.random() * soundCues.length);
+    } while (randomIndex === lastSoundIndex);
+  } else {
+    randomIndex = 0;
+  }
+  
+  lastSoundIndex = randomIndex;
+
+  const audio = new Audio(soundCues[randomIndex]);
+  audio.volume = 0.5;
+  audio.play().catch(err => console.log("Audio playback blocked or file missing:", err));
+});
   // Initialized empty. Loaded dynamically via concepts.json file configuration
   let itemData = [];
 
