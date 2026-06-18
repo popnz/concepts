@@ -392,7 +392,7 @@
   },
   {
     "title": "Xbox Shampoo",
-    "images": ["images/taunts/xboxshampoo.jpg"],
+    "images": ["images/taunts/xboxshampoo.jpg", "images/bannderr.jpg"],
     "type": "other",
     "event": ["smissmas"],
     "claimed": true,
