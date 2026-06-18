@@ -134,7 +134,7 @@
   },
      {
     "title": "The Long Shot",
-    "images": ["images/cosmetics/westernsniper.jpg"],
+    "images": ["images/cosmetics/westernsniper.jpg", "images/release/westernsniper.jpg"],
     "type": "cosmetic",
     "event": ["summer", "halloween"],
     "claimed": true,
@@ -144,7 +144,7 @@
   },
      {
     "title": "Dell Earnhardt",
-    "images": ["images/cosmetics/dellearnhardt.jpg"],
+    "images": ["images/cosmetics/dellearnhardt.jpg", "images/release/dellearnhardt.jpg"],
     "type": "cosmetic",
     "event": ["summer", "smissmas"],
     "claimed": true,
@@ -154,7 +154,7 @@
   },
         {
     "title": "Scotch Broker",
-    "images": ["images/cosmetics/hotsuitdemo.jpg"],
+    "images": ["images/cosmetics/hotsuitdemo.jpg", "images/release/hotsuitdemo.jpg"],
     "type": "cosmetic",
     "event": ["summer", "smissmas"],
     "claimed": true,
@@ -164,7 +164,7 @@
   },
        {
     "title": "Woodland Warmonger",
-    "images": ["images/cosmetics/americafleecesolly.jpg"],
+    "images": ["images/cosmetics/americafleecesolly.jpg", "images/release/americafleecesolly.jpg"],
     "type": "cosmetic",
     "event": ["summer", "smissmas"],
     "claimed": true,
@@ -174,7 +174,7 @@
   },
          {
     "title": "Gorge Garrison",
-    "images": ["images/cosmetics/gorgarri.jpg"],
+    "images": ["images/cosmetics/gorgarri.jpg", "images/release/gorgarri.jpg"],
     "type": "cosmetic",
     "event": ["summer", "smissmas"],
     "claimed": true,
@@ -184,7 +184,7 @@
   },
        {
     "title": "Salty Sovereign",
-    "images": ["images/cosmetics/navysolly.jpg"],
+    "images": ["images/cosmetics/navysolly.jpg", "images/release/navysolly.jpg"],
     "type": "cosmetic",
     "event": ["summer"],
     "claimed": true,
@@ -194,7 +194,7 @@
   },
        {
     "title": "Jungle Jet",
-    "images": ["images/cosmetics/ramboscout.jpg"],
+    "images": ["images/cosmetics/ramboscout.jpg", "images/release/ramboscout.jpg"],
     "type": "cosmetic",
     "event": ["summer", "halloween", "smissmas"],
     "claimed": true,
@@ -204,7 +204,7 @@
   },
         {
     "title": "Frags to Riches",
-    "images": ["images/cosmetics/peasantsolly.jpg"],
+    "images": ["images/cosmetics/peasantsolly.jpg", "images/release/peasantsolly.jpg"],
     "type": "cosmetic",
     "event": ["summer", "smissmas"],
     "claimed": true,
@@ -214,7 +214,7 @@
   },
         {
     "title": "Iron Drunkard",
-    "images": ["images/cosmetics/demoknightset.jpg"],
+    "images": ["images/cosmetics/demoknightset.jpg", "images/release/demoknightset.jpg"],
     "type": "cosmetic",
     "event": ["summer", "halloween"],
     "claimed": true,
@@ -224,7 +224,7 @@
   },
         {
     "title": "Shock Shelter",
-    "images": ["images/cosmetics/trenchwarfare.jpg"],
+    "images": ["images/cosmetics/trenchwarfare.jpg", "images/release/trenchwarfare.jpg"],
     "type": "cosmetic",
     "event": ["summer", "smissmas"],
     "claimed": true,
@@ -234,7 +234,7 @@
   },
         {
     "title": "Sprocket Scholar",
-    "images": ["images/cosmetics/speng1.jpg"],
+    "images": ["images/cosmetics/speng1.jpg", "images/release/speng1.jpg"],
     "type": "cosmetic",
     "event": ["halloween"],
     "claimed": true,
@@ -271,6 +271,16 @@
     "claimedBy": "Papyesh",
     "isReleased": true,
     "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3712756083"
+  },
+          {
+    "title": "Sprocket Scholar",
+    "images": ["images/cosmetics/hickscout.jpg", "images/cosmetics/hickscout2.jpg"],
+    "type": "cosmetic",
+    "event": ["halloween"],
+    "claimed": true,
+    "claimedBy": "Audrey",
+    "isReleased": true,
+    "workshopUrl": "https://steamcommunity.com/workshop/filedetails/?id=3335578060"
   },
             {
     "title": "Canberra Beret",
