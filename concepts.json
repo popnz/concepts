@@ -132,7 +132,7 @@
   },
       {
     "title": "Velveteen Villain",
-    "images": ["images/cosmetics/hawkeye.jpg", "images/released/hawkeye.jpg],
+    "images": ["images/cosmetics/hawkeye.jpg", "images/released/hawkeye.jpg"],
     "type": "cosmetic",
     "event": ["halloween"],
     "claimed": true,
