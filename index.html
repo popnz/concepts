@@ -584,8 +584,8 @@
     });
   });
 
-  // Asynchronously loading external content file package module setup
-  fetch('concepts.json')
+ // Fetch updated dynamically using cache-busting logic
+  fetch('concepts.json?v=' + Date.now())
     .then(response => {
       if (!response.ok) {
         throw new Error("HTTP error checking data targets: " + response.status);
