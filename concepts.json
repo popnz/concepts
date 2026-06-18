@@ -75,7 +75,7 @@
     {
     "title": "The Wig of Wall Street",
     "images": ["images/cosmetics/spywig.jpg"],
-    "type": "unusual",
+    "type": "cosmetic",
     "event": ["halloween"],
     "claimed": false,
     "isReleased": false
@@ -266,7 +266,7 @@
     "type": "cosmetic",
     "event": ["summer", "smissmas"],
     "claimed": true,
-    "claimedBy": "Mac",
+    "claimedBy": "dotflare",
     "isReleased": true,
     "workshopUrl": "https://steamcommunity.com/workshop/filedetails/?id=3604769702"
   },
