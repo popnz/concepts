@@ -16,6 +16,24 @@
     "claimed": false,
     "isReleased": false
   },
+         {
+    "title": "Kingdom Come",
+    "images": ["images/cosmetics/kingdomcum.jpg"],
+    "type": "cosmetic",
+    "event": ["halloween"],
+    "claimed": false,
+    "claimedBy": "Audrey, maybe?",
+    "isReleased": false
+  },
+         {
+    "title": "Barbed Wirererer",
+    "images": ["images/cosmetics/wirecutter.jpg"],
+    "type": "cosmetic",
+    "event": ["summer", "smissmas"],
+    "claimed": false,
+    "claimedBy": "Audrey, maybe?",
+    "isReleased": false
+  },
     {
     "title": "Demo Singlet Set",
     "images": ["images/cosmetics/demosinglet.jpg"],
