@@ -412,7 +412,7 @@
     grid.innerHTML = itemData.map((item, index) => `
       <div class="card preview-trigger" 
            data-type="${item.type}" 
-           data-event="${item.event}" 
+           data-event="${Array.isArray(item.event) ? item.event.join(',') : item.event}"
            data-claimed="${item.claimed ? 'claimed' : 'unclaimed'}"
            data-released="${item.isReleased ? 'released' : 'wip'}"
            data-index="${index}">
@@ -531,31 +531,33 @@
   let currentFilters = { main: 'all', event: 'all', claim: 'all', status: 'wip' };
 
   function applyFilters() {
-    if (currentFilters.status === 'released') {
-      workshopNotice.style.display = 'block';
-    } else {
-      workshopNotice.style.display = 'none';
-    }
-
-    const cards = document.querySelectorAll('.card');
-    cards.forEach(card => {
-      const type = card.getAttribute('data-type');
-      const event = card.getAttribute('data-event');
-      const claimed = card.getAttribute('data-claimed');
-      const releasedState = card.getAttribute('data-released');
-
-      const matchesMain = currentFilters.main === 'all' || currentFilters.main === type;
-      const matchesEvent = currentFilters.event === 'all' || currentFilters.event === event;
-      const matchesClaim = currentFilters.claim === 'all' || currentFilters.claim === claimed;
-      const matchesStatus = currentFilters.status === releasedState;
-
-      if (matchesMain && matchesEvent && matchesClaim && matchesStatus) {
-        card.style.display = 'block';
-      } else {
-        card.style.display = 'none';
-      }
-    });
+  if (currentFilters.status === 'released') {
+    workshopNotice.style.display = 'block';
+  } else {
+    workshopNotice.style.display = 'none';
   }
+
+  const cards = document.querySelectorAll('.card');
+  cards.forEach(card => {
+    const type = card.getAttribute('data-type');
+    const eventsList = card.getAttribute('data-event').split(',');
+    const claimed = card.getAttribute('data-claimed');
+    const releasedState = card.getAttribute('data-released');
+
+    const matchesMain = currentFilters.main === 'all' || currentFilters.main === type;
+    
+    const matchesEvent = currentFilters.event === 'all' || eventsList.includes(currentFilters.event);
+    
+    const matchesClaim = currentFilters.claim === 'all' || currentFilters.claim === claimed;
+    const matchesStatus = currentFilters.status === releasedState;
+
+    if (matchesMain && matchesEvent && matchesClaim && matchesStatus) {
+      card.style.display = 'block';
+    } else {
+      card.style.display = 'none';
+    }
+  });
+}
 
   document.querySelectorAll('.filter-btn').forEach(btn => {
     btn.addEventListener('click', () => {
