@@ -32,6 +32,30 @@
     "claimed": false,
     "isReleased": false
   },
+       {
+    "title": "Roughneck Racer",
+    "images": ["images/cosmetics/boyracersca.jpg"],
+    "type": "cosmetic",
+    "event": ["halloween"],
+    "claimed": false,
+    "isReleased": false
+  },
+        {
+    "title": "The Reanimator",
+    "images": ["images/cosmetics/paintermedic.jpg"],
+    "type": "cosmetic",
+    "event": ["summer", "halloween", "smissmas"],
+    "claimed": false,
+    "isReleased": false
+  },
+         {
+    "title": "The Reanimator",
+    "images": ["images/cosmetics/paintermedic.jpg"],
+    "type": "cosmetic",
+    "event": ["summer", "halloween", "smissmas"],
+    "claimed": false,
+    "isReleased": false
+  },
     {
     "title": "The Bloodgates",
     "images": ["images/effects/bloodgates.jpg"],
@@ -50,7 +74,7 @@
   },
     {
     "title": "The Wig of Wall Street",
-    "images": ["images/effects/spywig.jpg"],
+    "images": ["images/cosmetics/spywig.jpg"],
     "type": "unusual",
     "event": ["halloween"],
     "claimed": false,
@@ -77,6 +101,22 @@
     "images": ["images/effects/nightdemon.jpg"],
     "type": "unusual",
     "event": ["halloween"],
+    "claimed": false,
+    "isReleased": false
+  },
+           {
+    "title": "Mr Mafioso",
+    "images": ["images/cosmetics/mrmafioso.jpg"],
+    "type": "cosmetic",
+    "event": ["summer"],
+    "claimed": false,
+    "isReleased": false
+  },
+           {
+    "title": "Roblox Visor",
+    "images": ["images/cosmetics/golfdemo.jpg"],
+    "type": "cosmetic",
+    "event": ["summer"],
     "claimed": false,
     "isReleased": false
   },
@@ -212,7 +252,7 @@
   },
           {
     "title": "The Aeronaut",
-    "images": ["images/cosmetics/speng1.jpg"],
+    "images": ["images/cosmetics/aeronaut.jpg"],
     "type": "cosmetic",
     "event": ["halloween"],
     "claimed": true,
