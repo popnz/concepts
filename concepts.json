@@ -1,15 +1,15 @@
 [
   {
     "title": "Fart Cosmetic",
-    "images": ["c_1.jpg", "c_2.jpg"],
+    "images": ["images/cosmetics/thinduke.jpg"],
     "type": "cosmetic",
     "event": ["summer"],
     "claimed": true,
     "isReleased": false
   },
   {
-    "title": "Fart Clouds",
-    "images": ["u_fartcloud.jpg"],
+    "title": "Operation Doomsday",
+    "images": ["images/unusuals/opdoomsday.jpg"],
     "type": "unusual",
     "event": ["halloween"],
     "claimed": false,
@@ -17,7 +17,7 @@
   },
     {
     "title": "Goodbye Look",
-    "images": ["c_goodbyelook.jpg"],
+    "images": ["images/cosmetics/goodbyelook.jpg", "images/cosmetics/goodbyelook2.jpg"],
     "type": "unusual",
     "event": ["summer", "smissmas"],
     "claimed": true,
@@ -25,12 +25,12 @@
     "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3604618203"
   },
   {
-    "title": "Farted Taunt",
-    "images": ["t_t1.jpg", "t_t2.jpg", "t_t3.jpg"],
+    "title": "Xbox Shampoo",
+    "images": ["images/taunts/xboxshampoo.jpg"],
     "type": "taunt",
     "event": ["smissmas"],
     "claimed": true,
     "isReleased": true,
-    "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3604618203"
+    "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=208372074"
   }
 ]
