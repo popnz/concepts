@@ -5,6 +5,7 @@
     "type": "cosmetic",
     "event": ["summer"],
     "claimed": true,
+    "claimedBy": "Audrey",
     "isReleased": false
   },
   {
@@ -53,6 +54,7 @@
     "type": "cosmetic",
     "event": ["summer", "smissmas"],
     "claimed": true,
+    "claimedBy": "Big Bob",
     "isReleased": true,
     "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3604618203"
   },
@@ -62,6 +64,7 @@
     "type": "cosmetic",
     "event": ["summer", "halloween"],
     "claimed": true,
+    "claimedBy": "Audrey",
     "isReleased": true,
     "workshopUrl": "https://steamcommunity.com/workshop/filedetails/?id=3693559617"
   },
@@ -71,6 +74,7 @@
     "type": "cosmetic",
     "event": ["summer", "smissmas"],
     "claimed": true,
+    "claimedBy": "Papyesh",
     "isReleased": true,
     "workshopUrl": "https://steamcommunity.com/workshop/filedetails/?id=3702723841"
   },
@@ -80,6 +84,7 @@
     "type": "cosmetic",
     "event": ["summer", "smissmas"],
     "claimed": true,
+    "claimedBy": "Audrey",
     "isReleased": true,
     "workshopUrl": "https://steamcommunity.com/workshop/filedetails/?id=3720344078"
   },
@@ -89,6 +94,7 @@
     "type": "cosmetic",
     "event": ["summer"],
     "claimed": true,
+    "claimedBy": "ArghBeef",
     "isReleased": true,
     "workshopUrl": "https://steamcommunity.com/workshop/filedetails/?id=3732939132"
   },
@@ -98,6 +104,7 @@
     "type": "cosmetic",
     "event": ["summer", "halloween", "smissmas"],
     "claimed": true,
+    "claimedBy": "Big Bob",
     "isReleased": true,
     "workshopUrl": "https://steamcommunity.com/workshop/filedetails/?id=3726261429"
   },
@@ -107,6 +114,7 @@
     "type": "unusual",
     "event": ["summer", "smissmas"],
     "claimed": true,
+    "claimedBy": "Hapty",
     "isReleased": true,
     "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3611380472"
   },
@@ -116,6 +124,7 @@
     "type": "unusual",
     "event": ["summer", "halloween"],
     "claimed": true,
+    "claimedBy": "ImAware",
     "isReleased": true,
     "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3470802955"
   },
@@ -125,6 +134,7 @@
     "type": "unusual",
     "event": ["summer", "halloween"],
     "claimed": true,
+    "claimedBy": "Lothudus",
     "isReleased": true,
     "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3727477318"
   },
@@ -134,6 +144,7 @@
     "type": "taunt",
     "event": ["smissmas"],
     "claimed": true,
+    "claimedBy": "Xbox Nation",
     "isReleased": true,
     "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=208372074"
   }
