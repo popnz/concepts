@@ -394,6 +394,8 @@
       <img class="modal-content" id="modalTargetImg" src="" alt="Concept Preview">
       <button class="nav-btn next" id="nextBtn">&#10095;</button>
       <div class="carousel-dots" id="carouselDotsContainer"></div>
+
+      <p id="modalClaimedByText" style="margin-top: 15px; font-size: 1rem; color: #cf6a32; font-family: 'TF2 Build', Arial, sans-serif; text-transform: uppercase; letter-spacing: 0.5px;"></p>
       
       <a id="modalWorkshopBtn" class="modal-action-btn" target="_blank" rel="noopener noreferrer">
         Check this out on the workshop!
@@ -442,6 +444,7 @@
     const prevBtn = document.getElementById('prevBtn');
     const nextBtn = document.getElementById('nextBtn');
     const dotsContainer = document.getElementById('carouselDotsContainer');
+    const claimedByText = document.getElementById('modalClaimedByText');
     const workshopBtn = document.getElementById('modalWorkshopBtn');
     const triggers = document.querySelectorAll('.preview-trigger');
 
@@ -467,6 +470,15 @@
         currentImgIndex = 0;
 
         dotsContainer.innerHTML = '';
+
+        if (activeItem.claimed && activeItem.claimedBy) {
+          claimedByText.textContent = `This was claimed by ${activeItem.claimedBy}`;
+          claimedByText.style.display = 'block';
+        } else {
+          // Hide it completely if it's unclaimed or empty
+          claimedByText.textContent = '';
+          claimedByText.style.display = 'none';
+        }
 
         if (currentItemImages.length > 1) {
           prevBtn.style.display = 'block';
