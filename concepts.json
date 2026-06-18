@@ -1,6 +1,6 @@
 [
   {
-    "title": "Fart Cosmetic",
+    "title": "Thin White Duke Medic",
     "images": ["images/cosmetics/thinduke.jpg"],
     "type": "cosmetic",
     "event": ["summer"],
@@ -9,7 +9,39 @@
   },
   {
     "title": "Operation Doomsday",
-    "images": ["images/unusuals/opdoomsday.jpg"],
+    "images": ["images/effects/opdoomsday.jpg"],
+    "type": "unusual",
+    "event": ["halloween"],
+    "claimed": false,
+    "isReleased": false
+  },
+    {
+    "title": "Demo Singlet Set",
+    "images": ["images/cosmetics/demosinglet.jpg"],
+    "type": "cosmetic",
+    "event": ["summer"],
+    "claimed": false,
+    "isReleased": false
+  },
+     {
+    "title": "The Shut-In",
+    "images": ["images/cosmetics/doomersniper.jpg"],
+    "type": "cosmetic",
+    "event": ["summer", "halloween", "smissmas"],
+    "claimed": false,
+    "isReleased": false
+  },
+    {
+    "title": "Wine Spill",
+    "images": ["images/effects/winespill.jpg"],
+    "type": "unusual",
+    "event": ["summer", "halloween", "smissmas"],
+    "claimed": false,
+    "isReleased": false
+  },
+    {
+    "title": "Like Clockwork",
+    "images": ["images/effects/likeclockwork.jpg"],
     "type": "unusual",
     "event": ["halloween"],
     "claimed": false,
@@ -18,11 +50,83 @@
     {
     "title": "Goodbye Look",
     "images": ["images/cosmetics/goodbyelook.jpg", "images/cosmetics/goodbyelook2.jpg"],
-    "type": "unusual",
+    "type": "cosmetic",
     "event": ["summer", "smissmas"],
     "claimed": true,
     "isReleased": true,
     "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3604618203"
+  },
+     {
+    "title": "The Long Shot",
+    "images": ["images/cosmetics/westernsniper.jpg"],
+    "type": "cosmetic",
+    "event": ["summer", "halloween"],
+    "claimed": true,
+    "isReleased": true,
+    "workshopUrl": "https://steamcommunity.com/workshop/filedetails/?id=3693559617"
+  },
+     {
+    "title": "Dell Earnhardt",
+    "images": ["images/cosmetics/dellearnhardt.jpg"],
+    "type": "cosmetic",
+    "event": ["summer", "smissmas"],
+    "claimed": true,
+    "isReleased": true,
+    "workshopUrl": "https://steamcommunity.com/workshop/filedetails/?id=3702723841"
+  },
+       {
+    "title": "Woodland Warmonger",
+    "images": ["images/cosmetics/americafleecesolly.jpg"],
+    "type": "cosmetic",
+    "event": ["summer", "smissmas"],
+    "claimed": true,
+    "isReleased": true,
+    "workshopUrl": "https://steamcommunity.com/workshop/filedetails/?id=3720344078"
+  },
+       {
+    "title": "Salty Sovereign",
+    "images": ["images/cosmetics/navysolly.jpg"],
+    "type": "cosmetic",
+    "event": ["summer"],
+    "claimed": true,
+    "isReleased": true,
+    "workshopUrl": "https://steamcommunity.com/workshop/filedetails/?id=3732939132"
+  },
+       {
+    "title": "Jungle Jet",
+    "images": ["images/cosmetics/ramboscout.jpg"],
+    "type": "cosmetic",
+    "event": ["summer", "halloween", "smissmas"],
+    "claimed": true,
+    "isReleased": true,
+    "workshopUrl": "https://steamcommunity.com/workshop/filedetails/?id=3726261429"
+  },
+        {
+    "title": "Lucid Dreams",
+    "images": ["images/effects/dreampop.jpg"],
+    "type": "unusual",
+    "event": ["summer", "smissmas"],
+    "claimed": true,
+    "isReleased": true,
+    "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3611380472"
+  },
+      {
+    "title": "Current Conductor",
+    "images": ["images/effects/conductor.jpg"],
+    "type": "unusual",
+    "event": ["summer", "halloween"],
+    "claimed": true,
+    "isReleased": true,
+    "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3470802955"
+  },
+    {
+    "title": "Goo",
+    "images": ["images/effects/slimeyouout.jpg"],
+    "type": "unusual",
+    "event": ["summer", "halloween"],
+    "claimed": true,
+    "isReleased": true,
+    "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3727477318"
   },
   {
     "title": "Xbox Shampoo",
