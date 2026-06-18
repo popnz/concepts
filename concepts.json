@@ -1,0 +1,27 @@
+[
+  {
+    "title": "Fart Cosmetic",
+    "images": ["c1.jpg", "c2.jpg"],
+    "type": "cosmetic",
+    "event": "summer",
+    "claimed": true,
+    "isReleased": false
+  },
+  {
+    "title": "Fart Clouds",
+    "images": ["u1.jpg"],
+    "type": "unusual",
+    "event": "halloween",
+    "claimed": false,
+    "isReleased": false
+  },
+  {
+    "title": "Farted Taunt",
+    "images": ["t1.jpg", "t2.jpg", "t3.jpg"],
+    "type": "taunt",
+    "event": "none",
+    "claimed": true,
+    "isReleased": true,
+    "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3604618203"
+  }
+]
