@@ -48,14 +48,6 @@
     "claimed": false,
     "isReleased": false
   },
-         {
-    "title": "The Reanimator",
-    "images": ["images/cosmetics/paintermedic.jpg"],
-    "type": "cosmetic",
-    "event": ["summer", "halloween", "smissmas"],
-    "claimed": false,
-    "isReleased": false
-  },
     {
     "title": "The Bloodgates",
     "images": ["images/effects/bloodgates.jpg"],
