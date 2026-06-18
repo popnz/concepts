@@ -393,7 +393,7 @@
   {
     "title": "Xbox Shampoo",
     "images": ["images/taunts/xboxshampoo.jpg"],
-    "type": "taunt",
+    "type": "other",
     "event": ["smissmas"],
     "claimed": true,
     "claimedBy": "Xbox Nation",
