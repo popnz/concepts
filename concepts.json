@@ -33,6 +33,30 @@
     "isReleased": false
   },
     {
+    "title": "The Bloodgates",
+    "images": ["images/effects/bloodgates.jpg"],
+    "type": "unusual",
+    "event": ["halloween"],
+    "claimed": false,
+    "isReleased": false
+  },
+    {
+    "title": "Cloud Cycle",
+    "images": ["images/effects/cloudcycle.jpg"],
+    "type": "unusual",
+    "event": ["halloween", "smissmas"],
+    "claimed": false,
+    "isReleased": false
+  },
+    {
+    "title": "The Wig of Wall Street",
+    "images": ["images/effects/spywig.jpg"],
+    "type": "unusual",
+    "event": ["halloween"],
+    "claimed": false,
+    "isReleased": false
+  },
+      {
     "title": "Wine Spill",
     "images": ["images/effects/winespill.jpg"],
     "type": "unusual",
@@ -47,6 +71,24 @@
     "event": ["halloween"],
     "claimed": false,
     "isReleased": false
+  },
+     {
+    "title": "Night Demon",
+    "images": ["images/effects/nightdemon.jpg"],
+    "type": "unusual",
+    "event": ["halloween"],
+    "claimed": false,
+    "isReleased": false
+  },
+      {
+    "title": "Velveteen Villain",
+    "images": ["images/cosmetics/hawkeye.jpg"],
+    "type": "cosmetic",
+    "event": ["halloween"],
+    "claimed": true,
+    "claimedBy": "MCL15",
+    "isReleased": true,
+    "workshopUrl": "https://steamcommunity.com/workshop/filedetails/?id=3564863234"
   },
     {
     "title": "Goodbye Look",
@@ -78,6 +120,16 @@
     "isReleased": true,
     "workshopUrl": "https://steamcommunity.com/workshop/filedetails/?id=3702723841"
   },
+        {
+    "title": "Scotch Broker",
+    "images": ["images/cosmetics/hotsuitdemo.jpg"],
+    "type": "cosmetic",
+    "event": ["summer", "smissmas"],
+    "claimed": true,
+    "claimedBy": "Audrey",
+    "isReleased": true,
+    "workshopUrl": "https://steamcommunity.com/workshop/filedetails/?id=3725546125"
+  },
        {
     "title": "Woodland Warmonger",
     "images": ["images/cosmetics/americafleecesolly.jpg"],
@@ -87,6 +139,16 @@
     "claimedBy": "Audrey",
     "isReleased": true,
     "workshopUrl": "https://steamcommunity.com/workshop/filedetails/?id=3720344078"
+  },
+         {
+    "title": "Gorge Garrison",
+    "images": ["images/cosmetics/gorgarri.jpg"],
+    "type": "cosmetic",
+    "event": ["summer", "smissmas"],
+    "claimed": true,
+    "claimedBy": "Cyanplastic",
+    "isReleased": true,
+    "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3456830683"
   },
        {
     "title": "Salty Sovereign",
@@ -107,6 +169,126 @@
     "claimedBy": "Big Bob",
     "isReleased": true,
     "workshopUrl": "https://steamcommunity.com/workshop/filedetails/?id=3726261429"
+  },
+        {
+    "title": "Frags to Riches",
+    "images": ["images/cosmetics/peasantsolly.jpg"],
+    "type": "cosmetic",
+    "event": ["summer", "smissmas"],
+    "claimed": true,
+    "claimedBy": "si_302",
+    "isReleased": true,
+    "workshopUrl": "https://steamcommunity.com/workshop/filedetails/?id=3691865922"
+  },
+        {
+    "title": "Iron Drunkard",
+    "images": ["images/cosmetics/demoknightset.jpg"],
+    "type": "cosmetic",
+    "event": ["summer", "halloween"],
+    "claimed": true,
+    "claimedBy": "Papyesh",
+    "isReleased": true,
+    "workshopUrl": "https://steamcommunity.com/workshop/filedetails/?id=3564730171"
+  },
+        {
+    "title": "Shock Shelter",
+    "images": ["images/cosmetics/trenchwarfare.jpg"],
+    "type": "cosmetic",
+    "event": ["summer", "smissmas"],
+    "claimed": true,
+    "claimedBy": "NAZO SAMBA",
+    "isReleased": true,
+    "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3686839378"
+  },
+        {
+    "title": "Sprocket Scholar",
+    "images": ["images/cosmetics/speng1.jpg"],
+    "type": "cosmetic",
+    "event": ["halloween"],
+    "claimed": true,
+    "claimedBy": "Papyesh",
+    "isReleased": true,
+    "workshopUrl": "https://steamcommunity.com/workshop/filedetails/?id=3568739883"
+  },
+          {
+    "title": "The Aeronaut",
+    "images": ["images/cosmetics/speng1.jpg"],
+    "type": "cosmetic",
+    "event": ["halloween"],
+    "claimed": true,
+    "claimedBy": "Ceramic Manor",
+    "isReleased": true,
+    "workshopUrl": "https://steamcommunity.com/workshop/filedetails/?id=3570102839"
+  },
+            {
+    "title": "Butler Krit It",
+    "images": ["images/cosmetics/butlermed.jpg"],
+    "type": "cosmetic",
+    "event": ["summer", "smissmas"],
+    "claimed": true,
+    "claimedBy": "Mac",
+    "isReleased": true,
+    "workshopUrl": "https://steamcommunity.com/workshop/filedetails/?id=3604769702"
+  },
+          {
+    "title": "Road Rage Raider",
+    "images": ["images/cosmetics/roadrageraider.jpg"],
+    "type": "cosmetic",
+    "event": ["summer", "halloween"],
+    "claimed": true,
+    "claimedBy": "Papyesh",
+    "isReleased": true,
+    "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3712756083"
+  },
+            {
+    "title": "Canberra Beret",
+    "images": ["images/cosmetics/beretsniper.jpg"],
+    "type": "cosmetic",
+    "event": ["summer", "smissmas"],
+    "claimed": true,
+    "claimedBy": "Mac",
+    "isReleased": true,
+    "workshopUrl": "https://steamcommunity.com/workshop/filedetails/?id=3612425535"
+  },
+              {
+    "title": "Yippee Cowboy",
+    "images": ["images/cosmetics/yipee.jpg"],
+    "type": "cosmetic",
+    "event": ["summer", "halloween", "smissmas"],
+    "claimed": true,
+    "claimedBy": "Ceramic Manor",
+    "isReleased": true,
+    "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3556734102"
+  },
+          {
+    "title": "Haunted Wick",
+    "images": ["images/effects/candleflame.jpg"],
+    "type": "unusual",
+    "event": ["halloween"],
+    "claimed": true,
+    "claimedBy": "Diva Dan",
+    "isReleased": true,
+    "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=2857044086"
+  },
+          {
+    "title": "Horsemann's Hack",
+    "images": ["images/effects/axeeff.jpg"],
+    "type": "unusual",
+    "event": ["halloween"],
+    "claimed": true,
+    "claimedBy": "William_The_Minecraft_Kid",
+    "isReleased": true,
+    "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=2868082767"
+  },
+          {
+    "title": "Phantom Plague",
+    "images": ["images/effects/phanplag.jpg"],
+    "type": "unusual",
+    "event": ["halloween"],
+    "claimed": true,
+    "claimedBy": "Bamboo",
+    "isReleased": true,
+    "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3031397262"
   },
         {
     "title": "Lucid Dreams",
@@ -137,6 +319,16 @@
     "claimedBy": "Lothudus",
     "isReleased": true,
     "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3727477318"
+  },
+      {
+    "title": "Friendzone",
+    "images": ["images/effects/somanyfriends.jpg"],
+    "type": "unusual",
+    "event": ["summer", "smissmas"],
+    "claimed": true,
+    "claimedBy": "Bamboo",
+    "isReleased": true,
+    "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3493113486"
   },
   {
     "title": "Xbox Shampoo",
