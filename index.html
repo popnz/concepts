@@ -1,0 +1,592 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>TF2 Concept Showcase</title>
+<style>
+  /* Import Official TF2 Fonts */
+  @font-face {
+    font-family: 'TF2 Build';
+    src: url('https://fonts.cdnfonts.com/s/19315/TF2Build.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'TF2 Secondary';
+    src: url('https://fonts.cdnfonts.com/s/19315/TF2Secondary.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  body {
+    background-color: #1b1c1c;
+    color: #f5f5f5;
+    font-family: 'TF2 Secondary', 'Helvetica Neue', Arial, sans-serif;
+    margin: 0;
+    padding: 2rem;
+    letter-spacing: 0.5px;
+  }
+  header {
+    border-bottom: 1px solid #333;
+    padding-bottom: 1.25rem;
+    margin-bottom: 2rem;
+  }
+  h1 { 
+    color: #efeff1; 
+    margin: 0 0 1.25rem 0; 
+    font-size: 2.2rem; 
+    font-family: 'TF2 Build', Arial, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-shadow: 2px 2px 0px rgba(0,0,0,0.5);
+  }
+  
+  /* Space-Saving Multi-Column Filters Container */
+  .filters-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 12px 24px;
+  }
+
+  /* Compact Filter Row Layout */
+  .filter-group {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  /* Inline Titles with Consistent Width for Clean Alignment */
+  .filter-title {
+    width: 110px;
+    flex-shrink: 0;
+    font-size: 0.8rem;
+    color: #888;
+    font-family: 'TF2 Build', Arial, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 0;
+  }
+
+  .filter-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+  }
+
+  .filter-btn {
+    background: #2a2b2c;
+    border: 1px solid #444;
+    color: #ccc;
+    padding: 6px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.85rem;
+    font-family: 'TF2 Secondary', Arial, sans-serif;
+    text-transform: uppercase;
+    transition: all 0.2s ease;
+  }
+  .filter-btn.active, .filter-btn:hover {
+    background: #b83838; /* TF2 Red */
+    color: #fff;
+    border-color: #ef4444;
+  }
+
+  /* Low Profile Workshop Notice */
+  .workshop-banner {
+    display: none;
+    margin-bottom: 1.5rem;
+    padding: 10px 14px;
+    background: #202122;
+    border-left: 3px solid #b83838;
+    border-radius: 0 4px 4px 0;
+    font-size: 0.95rem;
+    color: #b0b0b5;
+  }
+  .workshop-banner a {
+    color: #cf6a32; /* TF2 Orange Link Color */
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.15s ease;
+  }
+  .workshop-banner a:hover {
+    color: #ff8542;
+    text-decoration: underline;
+  }
+
+  /* Responsive Grid Showcase */
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 24px;
+  }
+  .card {
+    background: #242526;
+    border-radius: 6px;
+    overflow: hidden;
+    border: 1px solid #333;
+    position: relative;
+    transition: transform 0.15s ease, box-shadow 0.15s ease;
+    cursor: pointer;
+  }
+  .card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.4);
+  }
+  .img-box {
+    position: relative;
+    width: 100%;
+    aspect-ratio: 4/3;
+    background: #111;
+  }
+  .img-box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .badge {
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-size: 0.8rem;
+    font-family: 'TF2 Secondary', Arial, sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+  }
+  .badge.claimed { background: #cf6a32; color: #fff; } /* TF2 Orange */
+  .badge.wip { background: #4a90e2; color: #fff; }
+
+  .info { padding: 16px; }
+  .title { 
+    margin: 0; 
+    font-size: 1.2rem; 
+    font-weight: normal;
+    color: #fff; 
+    font-family: 'TF2 Build', Arial, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+  }
+  .meta { font-size: 0.85rem; color: #888; margin-top: 6px; text-transform: capitalize; }
+  
+  /* Rebranded Custom Tag Styles */
+  .status-tag {
+    display: inline-block;
+    margin-top: 6px;
+    padding: 2px 6px;
+    font-size: 0.75rem;
+    border-radius: 3px;
+    font-family: 'TF2 Secondary', Arial, sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+  .status-tag.released {
+    background-color: #2e4d2e;
+    color: #a3e2a3;
+    border: 1px solid #3b663b;
+  }
+  .status-tag.wip-status {
+    background-color: #3a3c3d;
+    color: #aaa;
+    border: 1px solid #444;
+  }
+
+  /* Full-Screen Lightbox Preview Overlay */
+  .modal {
+    display: none;
+    position: fixed;
+    z-index: 9999;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(15, 16, 16, 0.95);
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.25s ease;
+    cursor: zoom-out;
+  }
+  
+  .modal.show {
+    display: flex;
+    opacity: 1;
+  }
+  
+  .modal-content {
+    max-width: 85%;
+    max-height: 85vh;
+    border-radius: 6px;
+    border: 2px solid #3c3d3e;
+    box-shadow: 0 12px 36px rgba(0,0,0,0.6);
+    transform: scale(0.95);
+    transition: transform 0.25s ease;
+    cursor: default;
+  }
+  
+  .modal.show .modal-content {
+    transform: scale(1);
+  }
+
+  .modal-close {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    color: #888;
+    font-size: 40px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: color 0.15s ease;
+  }
+  .modal-close:hover {
+    color: #ef4444;
+  }
+
+  /* Carousel Navigation Adjustments */
+  .modal-wrapper {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 85%;
+  }
+
+  .nav-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    border: 1px solid #444;
+    font-size: 2rem;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 4px;
+    user-select: none;
+    transition: all 0.2s ease;
+  }
+  .nav-btn:hover {
+    background: #b83838;
+    border-color: #ef4444;
+  }
+  .nav-btn.prev { left: -70px; }
+  .nav-btn.next { right: -70px; }
+
+  /* Carousel Counter Dots */
+  .carousel-dots {
+    display: flex;
+    gap: 8px;
+    margin-top: 15px;
+  }
+  .dot {
+    width: 10px;
+    height: 10px;
+    background: #444;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background 0.2s ease;
+  }
+  .dot.active {
+    background: #ef4444;
+  }
+
+  /* Heavy-Set TF2 Style Modal Action Button */
+  .modal-action-btn {
+    display: none;
+    margin-top: 20px;
+    background: #cf6a32;
+    border: 1px solid #e07b43;
+    color: #fff;
+    padding: 10px 20px;
+    font-family: 'TF2 Build', Arial, sans-serif;
+    font-size: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    text-decoration: none;
+    border-radius: 4px;
+    box-shadow: inset 0 1px 0 rgba(255,255,255,0.2), 0 4px 10px rgba(0,0,0,0.3);
+    cursor: pointer;
+    transition: all 0.15s ease;
+  }
+  .modal-action-btn:hover {
+    background: #b83838;
+    border-color: #ef4444;
+    box-shadow: inset 0 1px 0 rgba(255,255,255,0.3), 0 6px 14px rgba(0,0,0,0.4);
+    transform: translateY(-1px);
+  }
+
+  @media (max-width: 768px) {
+    .filters-container {
+      grid-template-columns: 1fr;
+    }
+    .filter-group {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 6px;
+    }
+    .filter-title {
+      width: auto;
+    }
+    .nav-btn.prev { left: 10px; }
+    .nav-btn.next { right: 10px; }
+    .nav-btn { z-index: 10001; }
+  }
+</style>
+</head>
+<body>
+
+  <header>
+    <h1>Pop's TF2 Concepts</h1>
+    
+    <div class="filters-container">
+      <div class="filter-group">
+        <div class="filter-title">Item Types</div>
+        <div class="filter-buttons">
+          <button class="filter-btn active" data-group="main" data-value="all">All</button>
+          <button class="filter-btn" data-group="main" data-value="cosmetic">Cosmetics</button>
+          <button class="filter-btn" data-group="main" data-value="unusual">Unusuals</button>
+          <button class="filter-btn" data-group="main" data-value="taunt">Taunts</button>
+        </div>
+      </div>
+      
+      <div class="filter-group">
+        <div class="filter-title">Availability</div>
+        <div class="filter-buttons">
+          <button class="filter-btn active" data-group="claim" data-value="all">All</button>
+          <button class="filter-btn" data-group="claim" data-value="unclaimed">Unclaimed</button>
+          <button class="filter-btn" data-group="claim" data-value="claimed">Claimed</button>
+        </div>
+      </div>
+
+      <div class="filter-group">
+        <div class="filter-title">Seasonal</div>
+        <div class="filter-buttons">
+          <button class="filter-btn active" data-group="event" data-value="all">All Events</button>
+          <button class="filter-btn" data-group="event" data-value="summer">Summer</button>
+          <button class="filter-btn" data-group="event" data-value="halloween">Halloween</button>
+          <button class="filter-btn" data-group="event" data-value="smissmas">Smissmas</button>
+        </div>
+      </div>
+
+      <div class="filter-group">
+        <div class="filter-title">Release Status</div>
+        <div class="filter-buttons">
+          <button class="filter-btn active" data-group="status" data-value="wip">WIP</button>
+          <button class="filter-btn" data-group="status" data-value="released">Released</button>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <div id="workshopNotice" class="workshop-banner">
+    Check out my <a href="https://steamcommunity.com/id/pop5/myworkshopfiles/" target="_blank" rel="noopener noreferrer">Workshop</a> for more released examples.
+  </div>
+
+  <div class="grid" id="concept-grid"></div>
+
+  <div id="imageModal" class="modal">
+    <span class="modal-close" id="closeModal">&times;</span>
+    <div class="modal-wrapper">
+      <button class="nav-btn prev" id="prevBtn">&#10094;</button>
+      <img class="modal-content" id="modalTargetImg" src="" alt="Concept Preview">
+      <button class="nav-btn next" id="nextBtn">&#10095;</button>
+      <div class="carousel-dots" id="carouselDotsContainer"></div>
+      
+      <a id="modalWorkshopBtn" class="modal-action-btn" target="_blank" rel="noopener noreferrer">
+        Check this out on the workshop!
+      </a>
+    </div>
+  </div>
+
+<script>
+  // Initialized empty. Loaded dynamically via concepts.json file configuration
+  let itemData = [];
+
+  const grid = document.getElementById('concept-grid');
+  const workshopNotice = document.getElementById('workshopNotice');
+  
+  function renderCards() {
+    grid.innerHTML = itemData.map((item, index) => `
+      <div class="card preview-trigger" 
+           data-type="${item.type}" 
+           data-event="${item.event}" 
+           data-claimed="${item.claimed ? 'claimed' : 'unclaimed'}"
+           data-released="${item.isReleased ? 'released' : 'wip'}"
+           data-index="${index}">
+        <div class="img-box">
+          <img src="${item.images[0]}" alt="${item.title}" loading="lazy">
+          <span class="badge ${item.claimed ? 'claimed' : 'wip'}">
+            ${item.claimed ? 'Claimed' : 'Unclaimed'}
+          </span>
+        </div>
+        <div class="info">
+          <p class="title">${item.title}</p>
+          <div class="meta">${item.type}</div>
+          <span class="status-tag ${item.isReleased ? 'released' : 'wip-status'}">
+            ${item.isReleased ? 'Released' : 'WIP'}
+          </span>
+        </div>
+      </div>
+    `).join('');
+
+    initLightboxTriggers();
+  }
+
+  function initLightboxTriggers() {
+    const modal = document.getElementById('imageModal');
+    const modalImg = document.getElementById('modalTargetImg');
+    const closeBtn = document.getElementById('closeModal');
+    const prevBtn = document.getElementById('prevBtn');
+    const nextBtn = document.getElementById('nextBtn');
+    const dotsContainer = document.getElementById('carouselDotsContainer');
+    const workshopBtn = document.getElementById('modalWorkshopBtn');
+    const triggers = document.querySelectorAll('.preview-trigger');
+
+    let currentItemImages = [];
+    let currentImgIndex = 0;
+
+    function updateCarouselState() {
+      modalImg.src = currentItemImages[currentImgIndex];
+      
+      const dots = dotsContainer.querySelectorAll('.dot');
+      dots.forEach((dot, index) => {
+        if (index === currentImgIndex) dot.classList.add('active');
+        else dot.classList.remove('active');
+      });
+    }
+
+    triggers.forEach(card => {
+      card.addEventListener('click', () => {
+        const itemIndex = card.getAttribute('data-index');
+        const activeItem = itemData[itemIndex];
+        
+        currentItemImages = activeItem.images;
+        currentImgIndex = 0;
+
+        dotsContainer.innerHTML = '';
+
+        if (currentItemImages.length > 1) {
+          prevBtn.style.display = 'block';
+          nextBtn.style.display = 'block';
+          
+          currentItemImages.forEach((_, index) => {
+            const dot = document.createElement('div');
+            dot.classList.add('dot');
+            dot.addEventListener('click', (e) => {
+              e.stopPropagation();
+              currentImgIndex = index;
+              updateCarouselState();
+            });
+            dotsContainer.appendChild(dot);
+          });
+        } else {
+          prevBtn.style.display = 'none';
+          nextBtn.style.display = 'none';
+        }
+
+        if (activeItem.workshopUrl) {
+          workshopBtn.href = activeItem.workshopUrl;
+          workshopBtn.style.display = 'inline-block';
+        } else {
+          workshopBtn.style.display = 'none';
+          workshopBtn.href = '#';
+        }
+
+        updateCarouselState();
+        modal.classList.add('show');
+        document.body.style.overflow = 'hidden';
+      });
+    });
+
+    prevBtn.addEventListener('click', (e) => {
+      e.stopPropagation();
+      currentImgIndex = (currentImgIndex - 1 + currentItemImages.length) % currentItemImages.length;
+      updateCarouselState();
+    });
+
+    nextBtn.addEventListener('click', (e) => {
+      e.stopPropagation();
+      currentImgIndex = (currentImgIndex + 1) % currentItemImages.length;
+      updateCarouselState();
+    });
+
+    workshopBtn.addEventListener('click', (e) => {
+      e.stopPropagation();
+    });
+
+    const hidePreviewWindow = () => {
+      modal.classList.remove('show');
+      document.body.style.overflow = '';
+      setTimeout(() => { modalImg.src = ''; }, 250);
+    };
+
+    closeBtn.addEventListener('click', hidePreviewWindow);
+    modal.addEventListener('click', hidePreviewWindow);
+    modalImg.addEventListener('click', (e) => e.stopPropagation());
+  }
+
+  let currentFilters = { main: 'all', event: 'all', claim: 'all', status: 'wip' };
+
+  function applyFilters() {
+    if (currentFilters.status === 'released') {
+      workshopNotice.style.display = 'block';
+    } else {
+      workshopNotice.style.display = 'none';
+    }
+
+    const cards = document.querySelectorAll('.card');
+    cards.forEach(card => {
+      const type = card.getAttribute('data-type');
+      const event = card.getAttribute('data-event');
+      const claimed = card.getAttribute('data-claimed');
+      const releasedState = card.getAttribute('data-released');
+
+      const matchesMain = currentFilters.main === 'all' || currentFilters.main === type;
+      const matchesEvent = currentFilters.event === 'all' || currentFilters.event === event;
+      const matchesClaim = currentFilters.claim === 'all' || currentFilters.claim === claimed;
+      const matchesStatus = currentFilters.status === releasedState;
+
+      if (matchesMain && matchesEvent && matchesClaim && matchesStatus) {
+        card.style.display = 'block';
+      } else {
+        card.style.display = 'none';
+      }
+    });
+  }
+
+  document.querySelectorAll('.filter-btn').forEach(btn => {
+    btn.addEventListener('click', () => {
+      const group = btn.getAttribute('data-group');
+      const value = btn.getAttribute('data-value');
+      
+      btn.parentElement.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      
+      currentFilters[group] = value;
+      applyFilters();
+    });
+  });
+
+  // Asynchronously loading external content file package module setup
+  fetch('concepts.json')
+    .then(response => {
+      if (!response.ok) {
+        throw new Error("HTTP error checking data targets: " + response.status);
+      }
+      return response.json();
+    })
+    .then(data => {
+      itemData = data;
+      renderCards();
+      applyFilters();
+    })
+    .catch(error => {
+      console.error("Critical failure parsing setup data array:", error);
+      grid.innerHTML = `<p style="padding: 20px; color: #ef4444;">Error parsing data context. Are you running a local web server (Live Server)?</p>`;
+    });
+</script>
+</body>
+</html>
