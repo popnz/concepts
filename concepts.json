@@ -262,7 +262,7 @@
   },
           {
     "title": "The Aeronaut",
-    "images": ["images/cosmetics/aeronaut.jpg"],
+    "images": ["images/cosmetics/aeronaut.jpg", "images/released/aeronaut.jpeg"],
     "type": "cosmetic",
     "event": ["halloween"],
     "claimed": true,
@@ -272,7 +272,7 @@
   },
             {
     "title": "Butler Krit It",
-    "images": ["images/cosmetics/butlermed.jpg"],
+    "images": ["images/cosmetics/butlermed.jpg", "images/released/butlermed.jpeg"],
     "type": "cosmetic",
     "event": ["summer", "smissmas"],
     "claimed": true,
@@ -282,7 +282,7 @@
   },
           {
     "title": "Road Rage Raider",
-    "images": ["images/cosmetics/roadrageraider.jpg"],
+    "images": ["images/cosmetics/roadrageraider.jpg", "images/released/roadrageraider.jpeg"],
     "type": "cosmetic",
     "event": ["summer", "halloween"],
     "claimed": true,
@@ -291,8 +291,8 @@
     "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3712756083"
   },
           {
-    "title": "Sprocket Scholar",
-    "images": ["images/cosmetics/hickscout.jpg", "images/cosmetics/hickscout2.jpg"],
+    "title": "Kill Billy",
+    "images": ["images/cosmetics/hickscout.jpg", "images/cosmetics/hickscout2.jpg", "images/released/hickscout.jpeg"],
     "type": "cosmetic",
     "event": ["halloween"],
     "claimed": true,
@@ -302,7 +302,7 @@
   },
             {
     "title": "Canberra Beret",
-    "images": ["images/cosmetics/beretsniper.jpg"],
+    "images": ["images/cosmetics/beretsniper.jpg", "images/released/beretsniper.jpeg"],
     "type": "cosmetic",
     "event": ["summer", "smissmas"],
     "claimed": true,
@@ -312,7 +312,7 @@
   },
               {
     "title": "Yippee Cowboy",
-    "images": ["images/cosmetics/yipee.jpg"],
+    "images": ["images/cosmetics/yipee.jpg", "images/released/yipee.jpeg"],
     "type": "cosmetic",
     "event": ["summer", "halloween", "smissmas"],
     "claimed": true,
@@ -322,7 +322,7 @@
   },
           {
     "title": "Haunted Wick",
-    "images": ["images/effects/candleflame.jpg"],
+    "images": ["images/effects/candleflame.jpg", "images/released/hauntedwick.gif"],
     "type": "unusual",
     "event": ["halloween"],
     "claimed": true,
@@ -332,7 +332,7 @@
   },
           {
     "title": "Horsemann's Hack",
-    "images": ["images/effects/axeeff.jpg"],
+    "images": ["images/effects/axeeff.jpg", "images/released/hacktuah.jpeg"],
     "type": "unusual",
     "event": ["halloween"],
     "claimed": true,
@@ -342,7 +342,7 @@
   },
           {
     "title": "Phantom Plague",
-    "images": ["images/effects/phanplag.jpg"],
+    "images": ["images/effects/phanplag.jpg", "images/released/phanplag.gif"],
     "type": "unusual",
     "event": ["halloween"],
     "claimed": true,
@@ -352,7 +352,7 @@
   },
         {
     "title": "Lucid Dreams",
-    "images": ["images/effects/dreampop.jpg"],
+    "images": ["images/effects/dreampop.jpg", "images/released/dreampop.gif"],
     "type": "unusual",
     "event": ["summer", "smissmas"],
     "claimed": true,
@@ -362,7 +362,7 @@
   },
       {
     "title": "Current Conductor",
-    "images": ["images/effects/conductor.jpg"],
+    "images": ["images/effects/conductor.jpg", "images/released/conductor.gif"],
     "type": "unusual",
     "event": ["summer", "halloween"],
     "claimed": true,
@@ -372,7 +372,7 @@
   },
     {
     "title": "Goo",
-    "images": ["images/effects/slimeyouout.jpg"],
+    "images": ["images/effects/slimeyouout.jpg", "images/released/goo.gif"],
     "type": "unusual",
     "event": ["summer", "halloween"],
     "claimed": true,
@@ -382,7 +382,7 @@
   },
       {
     "title": "Friendzone",
-    "images": ["images/effects/somanyfriends.jpg"],
+    "images": ["images/effects/somanyfriends.jpg", "images/released/somanyfriends.gif"],
     "type": "unusual",
     "event": ["summer", "smissmas"],
     "claimed": true,
