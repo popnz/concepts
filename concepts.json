@@ -8,6 +8,30 @@
     "claimedBy": "Audrey",
     "isReleased": false
   },
+      {
+    "title": "The Bloodgates",
+    "images": ["images/effects/bloodgates.jpg"],
+    "type": "unusual",
+    "event": ["halloween"],
+    "claimed": false,
+    "isReleased": false
+  },
+      {
+    "title": "Possession/Ghostwalker",
+    "images": ["images/effects/possession.jpg"],
+    "type": "unusual",
+    "event": ["halloween"],
+    "claimed": false,
+    "isReleased": false
+  },
+      {
+    "title": "Mystique",
+    "images": ["images/effects/mystique.jpg"],
+    "type": "unusual",
+    "event": ["halloween"],
+    "claimed": false,
+    "isReleased": false
+  },
   {
     "title": "Operation Doomsday",
     "images": ["images/effects/opdoomsday.jpg"],
@@ -32,6 +56,14 @@
     "event": ["summer", "smissmas"],
     "claimed": true,
     "claimedBy": "Audrey, maybe?",
+    "isReleased": false
+  },
+      {
+    "title": "Ghost Step",
+    "images": ["images/effects/ghoststep.jpg"],
+    "type": "unusual",
+    "event": ["halloween"],
+    "claimed": false,
     "isReleased": false
   },
     {
@@ -66,9 +98,17 @@
     "claimed": false,
     "isReleased": false
   },
+      {
+    "title": "Hellscorched",
+    "images": ["images/effects/hellscorched.jpg"],
+    "type": "unusual",
+    "event": ["halloween"],
+    "claimed": false,
+    "isReleased": false
+  },
     {
-    "title": "The Bloodgates",
-    "images": ["images/effects/bloodgates.jpg"],
+    "title": "Oni Aura",
+    "images": ["images/effects/oniaura.jpg"],
     "type": "unusual",
     "event": ["halloween"],
     "claimed": false,
