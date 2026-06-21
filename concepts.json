@@ -13,7 +13,8 @@
     "images": ["images/effects/bloodgates.jpg"],
     "type": "unusual",
     "event": ["halloween"],
-    "claimed": false,
+    "claimed": true,
+    "claimedBy": "Kerpongle",
     "isReleased": false
   },
       {
