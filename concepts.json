@@ -29,7 +29,8 @@
     "images": ["images/effects/mystique.jpg"],
     "type": "unusual",
     "event": ["halloween"],
-    "claimed": false,
+    "claimed": true,
+    "claimedBy": "Lothudus",
     "isReleased": false
   },
   {
@@ -63,7 +64,8 @@
     "images": ["images/effects/ghoststep.jpg"],
     "type": "unusual",
     "event": ["halloween"],
-    "claimed": false,
+    "claimed": true,
+    "claimedBy": "Lothudus",
     "isReleased": false
   },
     {
@@ -111,7 +113,8 @@
     "images": ["images/effects/oniaura.jpg"],
     "type": "unusual",
     "event": ["halloween"],
-    "claimed": false,
+    "claimed": true,
+    "claimedBy": "Lothudus",
     "isReleased": false
   },
     {
