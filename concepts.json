@@ -1,5 +1,46 @@
 [
   {
+    "title": "Schrapnel Showdown",
+    "images": ["images/cosmetics/dukenuke.jpg"],
+    "type": "cosmetic",
+    "event": ["summer", "halloween"],
+    "claimed": true,
+    "isReleased": false
+  },  
+  {
+    "title": "Devil in a New Suit",
+    "images": ["images/cosmetics/devilnewsuit.jpg"],
+    "type": "cosmetic",
+    "event": ["halloween"],
+    "claimed": true,
+    "claimedBy": "Dotflare",
+    "isReleased": false
+  },
+        {
+    "title": "Styx Heaven",
+    "images": ["images/effects/styxheaven.jpg"],
+    "type": "unusual",
+    "event": ["halloween"],
+    "claimed": false,
+    "isReleased": false
+  },
+        {
+    "title": "Fart",
+    "images": ["images/effects/farded.jpg"],
+    "type": "unusual",
+    "event": ["halloween"],
+    "claimed": false,
+    "isReleased": false
+  },
+  {
+    "title": "Robbing Hood",
+    "images": ["images/cosmetics/scout_thief.jpg"],
+    "type": "cosmetic",
+    "event": ["summer", "halloween"],
+    "claimed": true,
+    "isReleased": false
+  },  
+  {
     "title": "Thin White Duke Medic",
     "images": ["images/cosmetics/thinduke.jpg"],
     "type": "cosmetic",
@@ -30,8 +71,7 @@
     "images": ["images/effects/mystique.jpg"],
     "type": "unusual",
     "event": ["halloween"],
-    "claimed": true,
-    "claimedBy": "Lothudus",
+    "claimed": false,
     "isReleased": false
   },
   {
@@ -48,7 +88,7 @@
     "type": "cosmetic",
     "event": ["halloween"],
     "claimed": true,
-    "claimedBy": "Audrey, maybe?",
+    "claimedBy": "MCL15",
     "isReleased": false
   },
          {
@@ -57,7 +97,7 @@
     "type": "cosmetic",
     "event": ["summer", "smissmas"],
     "claimed": true,
-    "claimedBy": "Audrey, maybe?",
+    "claimedBy": "Audrey",
     "isReleased": false
   },
       {
