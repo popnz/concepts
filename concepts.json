@@ -4,7 +4,7 @@
     "images": ["images/cosmetics/dukenuke.jpg"],
     "type": "cosmetic",
     "event": ["summer", "halloween"],
-    "claimed": true,
+    "claimed": false,
     "isReleased": false
   },  
   {
@@ -37,7 +37,7 @@
     "images": ["images/cosmetics/scout_thief.jpg"],
     "type": "cosmetic",
     "event": ["summer", "halloween"],
-    "claimed": true,
+    "claimed": false,
     "isReleased": false
   },  
   {
