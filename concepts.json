@@ -187,7 +187,8 @@
     "images": ["images/effects/likeclockwork.jpg"],
     "type": "unusual",
     "event": ["halloween"],
-    "claimed": false,
+    "claimed": true,
+    "claimedBy": "MrStabed",
     "isReleased": false
   },
      {
@@ -195,8 +196,10 @@
     "images": ["images/effects/nightdemon.jpg"],
     "type": "unusual",
     "event": ["halloween"],
-    "claimed": false,
-    "isReleased": false
+    "claimed": true,
+    "claimedBy": "WheatOnToast",
+    "isReleased": true,
+    "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3784910246"
   },
            {
     "title": "Mr Mafioso",
