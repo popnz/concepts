@@ -1,10 +1,20 @@
 [
+    {
+    "title": "Demoman Hachimaki",
+    "images": ["images/cosmetics/demohachijpg"],
+    "type": "cosmetic",
+    "event": ["summer", "halloween"],
+    "claimed": true,
+    "claimedBy": "Cyan McGribbles",
+    "isReleased": false
+  },  
   {
     "title": "Schrapnel Showdown",
     "images": ["images/cosmetics/dukenuke.jpg"],
     "type": "cosmetic",
     "event": ["summer", "halloween"],
-    "claimed": false,
+    "claimed": true,
+    "claimedBy": "Audrey",
     "isReleased": false
   },  
   {
