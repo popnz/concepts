@@ -42,6 +42,24 @@
     "claimed": false,
     "isReleased": false
   },
+        {
+    "title": "Spotlight, Uh, Moonlight, Uh",
+    "images": ["images/effects/moonglow.jpg"],
+    "type": "unusual",
+    "event": ["halloween"],
+    "claimed": true,
+    "claimedBy": "Bamboo",
+    "isReleased": false
+  },
+        {
+    "title": "Curse of Binding",
+    "images": ["images/effects/cbinding.jpg"],
+    "type": "unusual",
+    "event": ["halloween"],
+    "claimed": true,
+    "claimedBy": "Lothudus",
+    "isReleased": false
+  },
   {
     "title": "Robbing Hood",
     "images": ["images/cosmetics/scout_thief.jpg"],
