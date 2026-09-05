@@ -1,7 +1,7 @@
 [
     {
     "title": "Demoman Hachimaki",
-    "images": ["images/cosmetics/demohachijpg"],
+    "images": ["images/cosmetics/demohachi.jpg"],
     "type": "cosmetic",
     "event": ["summer", "halloween"],
     "claimed": true,
