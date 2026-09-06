@@ -4,7 +4,8 @@
     "images": ["images/cosmetics/holopyro.jpg"],
     "type": "cosmetic",
     "event": ["halloween"],
-    "claimed": false,
+    "claimed": true,
+    "claimedBy": "Kowalo",
     "isReleased": false
   },  
     {
@@ -20,7 +21,8 @@
     "images": ["images/cosmetics/ptesniper.jpg"],
     "type": "cosmetic",
     "event": ["halloween", "smissmas"],
-    "claimed": false,
+    "claimed": true,
+    "claimedBy": "Friend",
     "isReleased": false
   },  
     {
