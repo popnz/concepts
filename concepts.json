@@ -1,9 +1,25 @@
 [
     {
+    "title": "Clone Trooper",
+    "images": ["images/cosmetics/holopyro.jpg"],
+    "type": "cosmetic",
+    "event": ["halloween"],
+    "claimed": false,
+    "isReleased": false
+  },  
+    {
     "title": "Vampire Medic Misc",
     "images": ["images/cosmetics/vampmedmisc.jpg"],
     "type": "cosmetic",
     "event": ["halloween"],
+    "claimed": false,
+    "isReleased": false
+  },  
+    {
+    "title": "PTE. Investigator",
+    "images": ["images/cosmetics/ptesniper.jpg"],
+    "type": "cosmetic",
+    "event": ["halloween", "smissmas"],
     "claimed": false,
     "isReleased": false
   },  
@@ -92,6 +108,14 @@
     "event": ["summer"],
     "claimed": true,
     "claimedBy": "Audrey",
+    "isReleased": false
+  },
+    {
+    "title": "Shinji Scout",
+    "images": ["images/cosmetics/shinjiscout.jpg"],
+    "type": "cosmetic",
+    "event": ["halloween", "smissmas"],
+    "claimed": false,
     "isReleased": false
   },
       {
