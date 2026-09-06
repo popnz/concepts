@@ -1,5 +1,13 @@
 [
     {
+    "title": "Vampire Medic Misc",
+    "images": ["images/cosmetics/vampmedmisc.jpg"],
+    "type": "cosmetic",
+    "event": ["halloween"],
+    "claimed": false,
+    "isReleased": false
+  },  
+    {
     "title": "Demoman Hachimaki",
     "images": ["images/cosmetics/demohachi.jpg"],
     "type": "cosmetic",
