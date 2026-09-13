@@ -524,6 +524,7 @@
     "claimed": true,
     "claimedBy": "Diva Dan",
     "isReleased": true,
+    "isAccepted": true,
     "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=2857044086"
   },
           {
@@ -534,6 +535,7 @@
     "claimed": true,
     "claimedBy": "William_The_Minecraft_Kid",
     "isReleased": true,
+    "isAccepted": true,
     "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=2868082767"
   },
           {
@@ -544,6 +546,7 @@
     "claimed": true,
     "claimedBy": "Bamboo",
     "isReleased": true,
+    "isAccepted": true,
     "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3031397262"
   },
         {
@@ -564,6 +567,7 @@
     "claimed": true,
     "claimedBy": "ImAware",
     "isReleased": true,
+    "isAccepted": true,
     "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3470802955"
   },
     {
