@@ -332,6 +332,7 @@
     "claimed": true,
     "claimedBy": "MCL15",
     "isReleased": true,
+    "isAccepted": true,
     "workshopUrl": "https://steamcommunity.com/workshop/filedetails/?id=3564863234"
   },
     {
@@ -352,6 +353,7 @@
     "claimed": true,
     "claimedBy": "Audrey",
     "isReleased": true,
+    "isAccepted": true,
     "workshopUrl": "https://steamcommunity.com/workshop/filedetails/?id=3693559617"
   },
      {
@@ -592,6 +594,7 @@
     "claimed": true,
     "claimedBy": "Xbox Nation",
     "isReleased": true,
+    "isAccepted": true,
     "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=208372074"
   }
 ]
