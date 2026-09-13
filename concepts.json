@@ -1,4 +1,38 @@
 [
+        {
+    "title": "Cannon Fodder",
+    "images": ["images/effects/styxheaven.jpg"],
+    "type": "unusual",
+    "event": ["halloween"],
+    "claimed": false,
+    "isReleased": false
+  },
+        {
+    "title": "Dark Magic",
+    "images": ["images/effects/styxheaven.jpg"],
+    "type": "unusual",
+    "event": ["halloween"],
+    "claimed": true,
+    "claimedBy": "Lothudus",
+    "isReleased": false
+  },
+        {
+    "title": "Engaging Thrusters",
+    "images": ["images/effects/styxheaven.jpg"],
+    "type": "unusual",
+    "event": ["halloween"],
+    "claimed": false,
+    "isReleased": false
+  },
+        {
+    "title": "Unravel",
+    "images": ["images/effects/styxheaven.jpg"],
+    "type": "unusual",
+    "event": ["halloween"],
+    "claimed": true,
+    "claimedBy": "SleyGD",
+    "isReleased": false
+  },
     {
     "title": "Clone Trooper",
     "images": ["images/cosmetics/holopyro.jpg"],
@@ -84,7 +118,8 @@
     "event": ["halloween"],
     "claimed": true,
     "claimedBy": "Lothudus",
-    "isReleased": false
+    "isReleased": true
+    "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3800101999"
   },
   {
     "title": "Robbing Hood",
@@ -178,7 +213,8 @@
     "event": ["halloween"],
     "claimed": true,
     "claimedBy": "Lothudus",
-    "isReleased": false
+    "isReleased": true
+    "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3797906728"
   },
     {
     "title": "Demo Singlet Set",
