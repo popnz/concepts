@@ -255,7 +255,12 @@
     color: #aaa;
     border: 1px solid #444;
   }
-
+  .status-tag.accepted {
+  background-color: #274719;
+  color: #70B04A;
+  border: 1px solid #70B04A;
+  margin-left: 4px;
+  }
   /* Full-Screen Lightbox Preview Overlay */
   .modal {
     display: none;
@@ -537,6 +542,7 @@ document.getElementById('tf2-catchphrase').addEventListener('click', () => {
           <span class="status-tag ${item.isReleased ? 'released' : 'wip-status'}">
             ${item.isReleased ? 'Released' : 'WIP'}
           </span>
+          ${item.isAccepted ? '<span class="status-tag accepted">Accepted</span>' : ''}
         </div>
       </div>
     `).join('');
