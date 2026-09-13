@@ -1,15 +1,15 @@
 [
         {
     "title": "Cannon Fodder",
-    "images": ["images/effects/styxheaven.jpg"],
+    "images": ["images/effects/cannonfodder.jpg"],
     "type": "unusual",
-    "event": ["halloween"],
+    "event": ["summer", "halloween", "smissmas"],
     "claimed": false,
     "isReleased": false
   },
         {
     "title": "Dark Magic",
-    "images": ["images/effects/styxheaven.jpg"],
+    "images": ["images/effects/darkmagic.jpg"],
     "type": "unusual",
     "event": ["halloween"],
     "claimed": true,
@@ -18,7 +18,7 @@
   },
         {
     "title": "Engaging Thrusters",
-    "images": ["images/effects/styxheaven.jpg"],
+    "images": ["images/effects/engagethrusters.jpg"],
     "type": "unusual",
     "event": ["halloween"],
     "claimed": false,
@@ -26,7 +26,7 @@
   },
         {
     "title": "Unravel",
-    "images": ["images/effects/styxheaven.jpg"],
+    "images": ["images/effects/unravel.jpg"],
     "type": "unusual",
     "event": ["halloween"],
     "claimed": true,
