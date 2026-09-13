@@ -113,7 +113,7 @@
   },
         {
     "title": "Curse of Binding",
-    "images": ["images/effects/cbinding.jpg"],
+    "images": ["images/effects/cbinding.jpg", "images/released/cbinding.gif"],
     "type": "unusual",
     "event": ["halloween"],
     "claimed": true,
@@ -208,7 +208,7 @@
   },
       {
     "title": "Ghost Step",
-    "images": ["images/effects/ghoststep.jpg"],
+    "images": ["images/effects/ghoststep.jpg", "images/released/ghoststep.gif"],
     "type": "unusual",
     "event": ["halloween"],
     "claimed": true,
@@ -300,7 +300,7 @@
   },
      {
     "title": "Night Demon",
-    "images": ["images/effects/nightdemon.jpg"],
+    "images": ["images/effects/nightdemon.jpg", "images/released/nightdemon.gif"],
     "type": "unusual",
     "event": ["halloween"],
     "claimed": true,
