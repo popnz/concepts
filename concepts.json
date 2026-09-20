@@ -9,12 +9,13 @@
   },
         {
     "title": "Dark Magic",
-    "images": ["images/effects/darkmagic.jpg"],
+    "images": ["images/effects/darkmagic.jpg", "images/released/darkmagic.gif"],
     "type": "unusual",
     "event": ["halloween"],
     "claimed": true,
     "claimedBy": "Lothudus",
-    "isReleased": false
+    "isReleased": true,
+    "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3803706417"
   },
         {
     "title": "Engaging Thrusters",
@@ -52,12 +53,13 @@
   },  
     {
     "title": "PTE. Investigator",
-    "images": ["images/cosmetics/ptesniper.jpg"],
+    "images": ["images/cosmetics/ptesniper.jpg", "images/released/ptesniper.jpg"],
     "type": "cosmetic",
     "event": ["halloween", "smissmas"],
     "claimed": true,
     "claimedBy": "Friend",
-    "isReleased": false
+    "isReleased": true,
+    "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3802495830"
   },  
     {
     "title": "Demoman Hachimaki",
@@ -70,21 +72,23 @@
   },  
   {
     "title": "Schrapnel Showdown",
-    "images": ["images/cosmetics/dukenuke.jpg"],
+    "images": ["images/cosmetics/dukenuke.jpg", "images/released/dukenuke.jpg"],
     "type": "cosmetic",
     "event": ["summer", "halloween"],
     "claimed": true,
     "claimedBy": "Audrey",
-    "isReleased": false
+    "isReleased": true,
+    "workshopUrl": "https://steamcommunity.com/workshop/filedetails/?id=3804028218"
   },  
   {
     "title": "Devil in a New Suit",
-    "images": ["images/cosmetics/devilnewsuit.jpg"],
+    "images": ["images/cosmetics/devilnewsuit.jpg", "images/released/devilnewsuit.jpg"],
     "type": "cosmetic",
     "event": ["halloween"],
     "claimed": true,
     "claimedBy": "Dotflare",
-    "isReleased": false
+    "isReleased": true,
+    "workshopUrl": "https://steamcommunity.com/workshop/filedetails/?id=3802045822"
   },
         {
     "title": "Styx Heaven",
@@ -258,12 +262,13 @@
   },
     {
     "title": "Oni Aura",
-    "images": ["images/effects/oniaura.jpg"],
+    "images": ["images/effects/oniaura.jpg", "images/released/oniaura.gif"],
     "type": "unusual",
     "event": ["halloween"],
     "claimed": true,
     "claimedBy": "Lothudus",
-    "isReleased": false
+    "isReleased": true,
+    "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3804110475"
   },
     {
     "title": "Cloud Cycle",
