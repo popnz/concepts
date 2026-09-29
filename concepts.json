@@ -41,7 +41,8 @@
     "event": ["halloween"],
     "claimed": true,
     "claimedBy": "Kowalo",
-    "isReleased": false
+    "isReleased": true,
+    "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3806991622"
   },  
     {
     "title": "Vampire Medic Misc",
@@ -113,7 +114,8 @@
     "event": ["halloween"],
     "claimed": true,
     "claimedBy": "Bamboo",
-    "isReleased": false
+    "isReleased": true,
+    "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3809269504"
   },
         {
     "title": "Curse of Binding",
