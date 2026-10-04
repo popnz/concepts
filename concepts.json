@@ -64,7 +64,8 @@
     "images": ["images/effects/engagethrusters.jpg"],
     "type": "unusual",
     "event": ["halloween"],
-    "claimed": false,
+    "claimed": true,
+    "claimedBy": "William_The_Minecraft_Kid",
     "isReleased": false
   },
         {
