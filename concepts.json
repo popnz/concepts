@@ -1,4 +1,46 @@
 [
+    {
+    "title": "Engineering Teacher",
+    "images": ["images/cosmetics/engieteach.jpg"],
+    "type": "cosmetic",
+    "event": ["summer, smissmas"],
+    "claimed": false,
+    "isReleased": false
+  },  
+    {
+    "title": "Shinji Scout",
+    "images": ["images/cosmetics/shinjiscout.jpg"],
+    "type": "cosmetic",
+    "event": ["halloween", "smissmas"],
+    "claimed": false,
+    "isReleased": false
+  },
+    {
+    "title": "Sleezy Scout",
+    "images": ["images/cosmetics/scoutsleeze.jpg"],
+    "type": "cosmetic",
+    "event": ["summer, smissmas"],
+    "claimed": false,
+    "isReleased": false
+  },  
+    {
+    "title": "High-Roller Rocketeer",
+    "images": ["images/cosmetics/sollycowman.jpg"],
+    "type": "cosmetic",
+    "event": ["summer, smissmas"],
+    "claimed": true,
+    "claimedBy": "Audrey",
+    "isReleased": false
+  },  
+    {
+    "title": "Engie Police",
+    "images": ["images/cosmetics/engiepol.jpg"],
+    "type": "cosmetic",
+    "event": ["summer, smissmas"],
+    "claimed": true,
+    "claimedBy": "Sapah",
+    "isReleased": false
+  },  
         {
     "title": "Cannon Fodder",
     "images": ["images/effects/cannonfodder.jpg"],
@@ -151,14 +193,6 @@
     "event": ["summer"],
     "claimed": true,
     "claimedBy": "Audrey",
-    "isReleased": false
-  },
-    {
-    "title": "Shinji Scout",
-    "images": ["images/cosmetics/shinjiscout.jpg"],
-    "type": "cosmetic",
-    "event": ["halloween", "smissmas"],
-    "claimed": false,
     "isReleased": false
   },
       {
