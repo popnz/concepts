@@ -1,5 +1,14 @@
 [
     {
+    "title": "Heavy Rugby Polo",
+    "images": ["images/cosmetics/heavyrugby.jpg"],
+    "type": "cosmetic",
+    "event": ["summer, smissmas"],
+    "claimed": true,
+    "claimedBy": "Audrey Possibly",
+    "isReleased": false
+  },  
+    {
     "title": "Engineering Teacher",
     "images": ["images/cosmetics/engieteach.jpg"],
     "type": "cosmetic",
