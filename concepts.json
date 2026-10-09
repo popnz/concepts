@@ -384,6 +384,15 @@
     "claimed": false,
     "isReleased": false
   },
+    {
+    "title": "Old Chef Heavy Concept",
+    "images": ["images/cosmetics/chefheavy.jpg"],
+    "type": "cosmetic",
+    "event": ["smissmas"],
+    "claimed": true,
+    "claimedBy": "Buck",
+    "isReleased": false
+  },  
       {
     "title": "Velveteen Villain",
     "images": ["images/cosmetics/hawkeye.jpg", "images/released/hawkeye.jpg"],
