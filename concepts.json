@@ -1,5 +1,14 @@
 [
     {
+    "title": "Newspaper Reader Spy",
+    "images": ["images/cosmetics/boringspy.jpg"],
+    "type": "cosmetic",
+    "event": ["smissmas"],
+    "claimed": true,
+    "claimedBy": "Audrey",
+    "isReleased": false
+  },  
+    {
     "title": "Heavy Rugby Polo",
     "images": ["images/cosmetics/heavyrugby.jpg"],
     "type": "cosmetic",
