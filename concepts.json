@@ -393,6 +393,38 @@
     "claimed": false,
     "isReleased": false
   },
+        {
+    "title": "Multi-Class Harmonica Taunt",
+    "images": ["images/taunts/taunt_harmonicasheet.jpg"],
+    "type": "taunt",
+    "event": ["summer, halloween, smissmas"],
+    "claimed": false,
+    "isReleased": false
+  },
+        {
+    "title": "Scout Warmup Taunt",
+    "images": ["images/taunts/taunt_scoutwarmup.jpg"],
+    "type": "taunt",
+    "event": ["summer, halloween, smissmas"],
+    "claimed": false,
+    "isReleased": false
+  },
+        {
+    "title": "Sniper Smoke Taunt",
+    "images": ["images/taunts/taunt_snipersmoke.jpg"],
+    "type": "taunt",
+    "event": ["summer, halloween, smissmas"],
+    "claimed": false,
+    "isReleased": false
+  },
+        {
+    "title": "Pyro Berserk Taunt",
+    "images": ["images/taunts/taunt_pyroberserk.jpg"],
+    "type": "taunt",
+    "event": ["halloween"],
+    "claimed": false,
+    "isReleased": false
+  },
     {
     "title": "Old Chef Heavy Concept",
     "images": ["images/cosmetics/chefheavy.jpg"],
