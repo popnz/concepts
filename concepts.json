@@ -414,7 +414,8 @@
     "images": ["images/taunts/taunt_snipersmoke.gif"],
     "type": "taunt",
     "event": ["summer, halloween, smissmas"],
-    "claimed": false,
+    "claimed": true,
+    "claimedBy": "HasteReapr",
     "isReleased": false
   },
         {
