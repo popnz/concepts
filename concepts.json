@@ -403,7 +403,7 @@
   },
         {
     "title": "Scout Warmup Taunt",
-    "images": ["images/taunts/taunt_scoutwarmup.jpg"],
+    "images": ["images/taunts/taunt_scoutwarmup.gif"],
     "type": "taunt",
     "event": ["summer, halloween, smissmas"],
     "claimed": false,
@@ -411,7 +411,7 @@
   },
         {
     "title": "Sniper Smoke Taunt",
-    "images": ["images/taunts/taunt_snipersmoke.jpg"],
+    "images": ["images/taunts/taunt_snipersmoke.gif"],
     "type": "taunt",
     "event": ["summer, halloween, smissmas"],
     "claimed": false,
@@ -419,7 +419,7 @@
   },
         {
     "title": "Pyro Berserk Taunt",
-    "images": ["images/taunts/taunt_pyroberserk.jpg"],
+    "images": ["images/taunts/taunt_pyroberserk.gif"],
     "type": "taunt",
     "event": ["halloween"],
     "claimed": false,
