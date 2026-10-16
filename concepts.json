@@ -1,5 +1,14 @@
 [
     {
+    "title": "Medic Backpack",
+    "images": ["images/cosmetics/hikermed.jpg"],
+    "type": "cosmetic",
+    "event": ["smissmas"],
+    "claimed": true,
+    "claimedBy": "Audrey",
+    "isReleased": false
+  },  
+    {
     "title": "Demo Hoodie",
     "images": ["images/cosmetics/streetweardemo.jpg"],
     "type": "cosmetic",
