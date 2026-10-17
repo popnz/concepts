@@ -1,5 +1,13 @@
 [
     {
+    "title": "Tied Trapper",
+    "images": ["images/cosmetics/ushankall.jpg"],
+    "type": "cosmetic",
+    "event": ["smissmas"],
+    "claimed": false,
+    "isReleased": false
+  },  
+    {
     "title": "Cracker Barrel",
     "images": ["images/cosmetics/scoutcracker.jpg"],
     "type": "cosmetic",
