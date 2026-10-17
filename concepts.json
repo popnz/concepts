@@ -1,5 +1,13 @@
 [
     {
+    "title": "Cracker Barrel",
+    "images": ["images/cosmetics/crackerscout.jpg"],
+    "type": "cosmetic",
+    "event": ["summer, smissmas"],
+    "claimed": false,
+    "isReleased": false
+  },  
+    {
     "title": "Medic Backpack",
     "images": ["images/cosmetics/hikermed.jpg"],
     "type": "cosmetic",
