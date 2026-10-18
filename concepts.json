@@ -1,5 +1,13 @@
 [
     {
+    "title": "Young Money",
+    "images": ["images/cosmetics/oldmoneyscout.jpg"],
+    "type": "cosmetic",
+    "event": ["summer, smissmas"],
+    "claimed": false,
+    "isReleased": false
+  },  
+    {
     "title": "Tied Trapper",
     "images": ["images/cosmetics/ushankall.jpg"],
     "type": "cosmetic",
