@@ -1,5 +1,13 @@
 [
     {
+    "title": "Backwards Peak",
+    "images": ["images/cosmetics/peakedearly.jpg"],
+    "type": "cosmetic",
+    "event": ["summer, smissmas"],
+    "claimed": false,
+    "isReleased": false
+  },  
+    {
     "title": "The Infiltrator",
     "images": ["images/cosmetics/bizspy.jpg"],
     "type": "cosmetic",
