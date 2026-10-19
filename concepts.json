@@ -1,5 +1,21 @@
 [
     {
+    "title": "Cash Counter",
+    "images": ["images/cosmetics/bizspy.jpg"],
+    "type": "cosmetic",
+    "event": ["summer, smissmas"],
+    "claimed": false,
+    "isReleased": false
+  },  
+    {
+    "title": "Big Stepper",
+    "images": ["images/cosmetics/stepspy.jpg"],
+    "type": "cosmetic",
+    "event": ["summer, smissmas"],
+    "claimed": false,
+    "isReleased": false
+  },  
+    {
     "title": "Young Money",
     "images": ["images/cosmetics/oldmoneyscout.jpg"],
     "type": "cosmetic",
