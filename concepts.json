@@ -107,6 +107,39 @@
     "claimed": false,
     "isReleased": false
   },  
+        {
+    "title": "Fresh Spirit",
+    "images": ["images/effects/freshspirit.jpg"],
+    "type": "unusual",
+    "event": ["summer, smissmas"],
+    "claimed": false,
+    "isReleased": false
+  },
+        {
+    "title": "Chromatopia",
+    "images": ["images/effects/chromatopia.jpg"],
+    "type": "unusual",
+    "event": ["summer, smissmas"],
+    "claimed": false,
+    "isReleased": false
+  },
+        {
+    "title": "Dirty Minded",
+    "images": ["images/effects/dirtymind.jpg"],
+    "type": "unusual",
+    "event": ["summer, smissmas"],
+    "claimed": false,
+    "isReleased": false
+  },
+        {
+    "title": "Spice of Vice",
+    "images": ["images/effects/spicevice.jpg"],
+    "type": "unusual",
+    "event": ["summer, smissmas"],
+    "claimed": true,
+    "claimedBy": "Buck",
+    "isReleased": false
+  },
     {
     "title": "High-Roller Rocketeer",
     "images": ["images/cosmetics/sollycowman.jpg"],
