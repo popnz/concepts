@@ -112,7 +112,8 @@
     "images": ["images/effects/freshspirit.jpg"],
     "type": "unusual",
     "event": ["summer, smissmas"],
-    "claimed": false,
+    "claimed": true,
+    "claimedBy": "Sleyyy Queennn"
     "isReleased": false
   },
         {
