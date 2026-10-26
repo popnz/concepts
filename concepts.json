@@ -415,14 +415,6 @@
     "claimed": false,
     "isReleased": false
   },
-     {
-    "title": "The Shut-In",
-    "images": ["images/cosmetics/doomersniper.jpg"],
-    "type": "cosmetic",
-    "event": ["summer", "halloween", "smissmas"],
-    "claimed": false,
-    "isReleased": false
-  },
        {
     "title": "Roughneck Racer",
     "images": ["images/cosmetics/boyracersca.jpg"],
@@ -503,14 +495,6 @@
            {
     "title": "Mr Mafioso",
     "images": ["images/cosmetics/mrmafioso.jpg"],
-    "type": "cosmetic",
-    "event": ["summer"],
-    "claimed": false,
-    "isReleased": false
-  },
-           {
-    "title": "Roblox Visor",
-    "images": ["images/cosmetics/golfdemo.jpg"],
     "type": "cosmetic",
     "event": ["summer"],
     "claimed": false,
