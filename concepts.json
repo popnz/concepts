@@ -1,5 +1,21 @@
 [
     {
+    "title": "Lemonhead",
+    "images": ["images/cosmetics/lemonsnip.jpg"],
+    "type": "cosmetic",
+    "event": ["summer, smissmas"],
+    "claimed": false,
+    "isReleased": false
+  },  
+    {
+    "title": "Brodie Quest",
+    "images": ["images/cosmetics/brodiengi.jpg"],
+    "type": "cosmetic",
+    "event": ["summer, smissmas"],
+    "claimed": false,
+    "isReleased": false
+  },  
+    {
     "title": "Combat Comforter",
     "images": ["images/cosmetics/hikikoallclass.jpg"],
     "type": "cosmetic",
