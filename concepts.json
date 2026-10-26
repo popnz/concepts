@@ -22,6 +22,14 @@
     "event": ["summer, smissmas"],
     "claimed": false,
     "isReleased": false
+  },
+    {
+    "title": "Speedrunner",
+    "images": ["images/cosmetics/speedrunner.jpg"],
+    "type": "cosmetic",
+    "event": ["summer, smissmas"],
+    "claimed": false,
+    "isReleased": false
   },  
     {
     "title": "Backwards Peak",
