@@ -49,7 +49,7 @@
   },  
     {
     "title": "Big Stepper",
-    "images": ["images/cosmetics/stepspy.jpg"],
+    "images": ["images/cosmetics/stepspy.jpg", "images/cosmetics/stepspy2.jpg"],
     "type": "cosmetic",
     "event": ["summer, smissmas"],
     "claimed": true,
