@@ -20,7 +20,8 @@
     "images": ["images/cosmetics/hikikoallclass.jpg"],
     "type": "cosmetic",
     "event": ["summer, smissmas"],
-    "claimed": false,
+    "claimed": true,
+    "claimedBy": "Phantom_0333",
     "isReleased": false
   },
     {
