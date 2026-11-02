@@ -81,6 +81,42 @@
     "claimed": false,
     "isReleased": false
   },  
+        {
+    "title": "Cosmic Constellations",
+    "images": ["images/effects/coscons.jpg"],
+    "type": "unusual",
+    "event": ["summer, smissmas"],
+    "claimed": true,
+    "claimedBy": "Buck",
+    "isReleased": false
+  },
+        {
+    "title": "Opal Glacier",
+    "images": ["images/effects/opalglac.jpg"],
+    "type": "unusual",
+    "event": ["summer, smissmas"],
+    "claimed": true,
+    "claimedBy": "Lothudus",
+    "isReleased": false
+  },
+        {
+    "title": "Ender Dragon",
+    "images": ["images/effects/enddrag.jpg"],
+    "type": "unusual",
+    "event": ["summer, smissmas"],
+    "claimed": true,
+    "claimedBy": "William_The_Minecraft_Kid",
+    "isReleased": false
+  },
+        {
+    "title": "Teu Fort Blues",
+    "images": ["images/effects/tfblues.jpg"],
+    "type": "unusual",
+    "event": ["summer, smissmas"],
+    "claimed": true,
+    "claimedBy": "Buck",
+    "isReleased": false
+  },
     {
     "title": "Medic Backpack",
     "images": ["images/cosmetics/hikermed.jpg"],
