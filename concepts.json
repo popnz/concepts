@@ -50,12 +50,13 @@
   },  
     {
     "title": "Big Stepper",
-    "images": ["images/cosmetics/stepspy.jpg", "images/cosmetics/stepspy2.jpg"],
+    "images": ["images/cosmetics/stepspy.jpg", "images/cosmetics/stepspy2.jpg", "images/released/stepspy.jpg"],
     "type": "cosmetic",
     "event": ["summer, smissmas"],
     "claimed": true,
     "claimedBy": "Sapah",
-    "isReleased": false
+    "isReleased": true
+    "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3803706417"
   },  
     {
     "title": "Young Money",
