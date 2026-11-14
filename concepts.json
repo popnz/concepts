@@ -411,7 +411,7 @@
     "type": "unusual",
     "event": ["halloween"],
     "claimed": true,
-    "claimedBy": Buck,
+    "claimedBy": "Buck",
     "isReleased": true,
     "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3836605664"
   },
