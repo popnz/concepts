@@ -22,7 +22,8 @@
     "event": ["summer, smissmas"],
     "claimed": true,
     "claimedBy": "Phantom_0333",
-    "isReleased": false
+    "isReleased": true,
+    "workshopUrl": "https://steamcommunity.com/workshop/filedetails/?id=3839773824"
   },
     {
     "title": "Speedrunner",
@@ -116,7 +117,8 @@
     "event": ["summer, smissmas"],
     "claimed": true,
     "claimedBy": "Buck",
-    "isReleased": false
+    "isReleased": true,
+    "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3839190994"
   },
     {
     "title": "Medic Backpack",
@@ -125,7 +127,8 @@
     "event": ["smissmas"],
     "claimed": true,
     "claimedBy": "Audrey",
-    "isReleased": false
+    "isReleased": true,
+    "workshopUrl": "https://steamcommunity.com/workshop/filedetails/?id=3837031338"
   },  
     {
     "title": "Demo Hoodie",
@@ -143,15 +146,15 @@
     "event": ["smissmas"],
     "claimed": true,
     "claimedBy": "Audrey",
-    "isReleased": false
+    "isReleased": true,
+    "workshopUrl": "https://steamcommunity.com/workshop/filedetails/?id=3833854629"
   },  
     {
     "title": "Heavy Rugby Polo",
     "images": ["images/cosmetics/heavyrugby.jpg"],
     "type": "cosmetic",
     "event": ["summer, smissmas"],
-    "claimed": true,
-    "claimedBy": "Audrey",
+    "claimed": false,
     "isReleased": false
   },  
     {
@@ -228,7 +231,8 @@
     "event": ["summer, smissmas"],
     "claimed": true,
     "claimedBy": "Sapah",
-    "isReleased": false
+    "isReleased": true,
+    "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3833675283"
   },  
         {
     "title": "Cannon Fodder",
@@ -372,8 +376,7 @@
     "images": ["images/cosmetics/pinkerton.jpg"],
     "type": "cosmetic",
     "event": ["summer", "halloween", "smissmas"],
-    "claimed": true,
-    "claimedBy": "Audrey",
+    "claimed": false,
     "isReleased": false
   },
   {
@@ -407,8 +410,10 @@
     "images": ["images/effects/mystique.jpg"],
     "type": "unusual",
     "event": ["halloween"],
-    "claimed": false,
-    "isReleased": false
+    "claimed": true,
+    "claimedBy": Buck,
+    "isReleased": true,
+    "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3836605664"
   },
   {
     "title": "Operation Doomsday",
@@ -432,8 +437,7 @@
     "images": ["images/cosmetics/wirecutter.jpg"],
     "type": "cosmetic",
     "event": ["summer", "smissmas"],
-    "claimed": true,
-    "claimedBy": "Audrey",
+    "claimed": false,
     "isReleased": false
   },
       {
