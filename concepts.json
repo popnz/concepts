@@ -12,8 +12,10 @@
     "images": ["images/cosmetics/heavyrugby.jpg"],
     "type": "cosmetic",
     "event": ["summer, smissmas"],
-    "claimed": false,
-    "isReleased": false
+    "claimed": true,
+    "claimedBy": "Audrey",
+    "isReleased": true,
+    "workshopUrl": "https://steamcommunity.com/workshop/filedetails/?id=3841292057"
   }, 
     {
     "title": "Pinkerton Scout",
@@ -123,7 +125,8 @@
     "event": ["summer, smissmas"],
     "claimed": true,
     "claimedBy": "Lothudus",
-    "isReleased": false
+    "isReleased": true
+    "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3841315519"
   },
         {
     "title": "Ender Dragon",
@@ -161,7 +164,8 @@
     "event": ["summer, smissmas"],
     "claimed": true,
     "claimedBy": "Audrey",
-    "isReleased": false
+    "isReleased": true,
+    "workshopUrl": "https://steamcommunity.com/workshop/filedetails/?id=3841107333"
   },  
     {
     "title": "Newspaper Reader Spy",
