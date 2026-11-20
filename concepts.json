@@ -22,7 +22,8 @@
     "images": ["images/cosmetics/pinkerton.jpg"],
     "type": "cosmetic",
     "event": ["summer", "halloween", "smissmas"],
-    "claimed": false,
+    "claimed": true,
+    "claimedBy": "Audrey",
     "isReleased": false
   },
     {
